@@ -1,0 +1,18 @@
+linter:
+  rules:
+    prefer_initializing_formals: false
+    unnecessary_underscores: false
+    library_private_types_in_public_api: false
+    use_build_context_synchronously: false
+
+analyzer:
+  errors:
+    deprecated_member_use: ignore          # ✅ Pindah ke sini
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+    - web/**
+    - windows/**
+    - macos/**
+    - linux/**
